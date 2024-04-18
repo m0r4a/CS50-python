@@ -2,7 +2,7 @@
 
 **Note: I have alreaady some experience with Python, but I will worte down as much as possible either way.**
 
-## Hello world in Python
+## Hello Bison in Python
 ```python
 print("Hello Bison!")
 ```
