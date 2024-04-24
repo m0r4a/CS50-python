@@ -1,4 +1,4 @@
-# Week 0, Functions, Variables
+# Week 0: Functions, Variables
 
 **Note: I have alreaady some experience with Python, but I will worte down as much as possible either way.**
 
