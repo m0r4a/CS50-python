@@ -4,12 +4,11 @@ def main():
 
     clean_file_name = file_name.strip().lower()
 
-# I did not want to add topics that have not been covered in the course yet
-# but this was the closest to what has been taught in the course that I could think of.
-    try:
+    if len(clean_file_name.split(".")) >= 2:
         file_extension = clean_file_name.split(".").pop(-1)
-    except IndexError:
-        file_extension = "none"
+
+    else:
+        file_extension = "None"
 
     match file_extension:
         case "gif" | "png":
