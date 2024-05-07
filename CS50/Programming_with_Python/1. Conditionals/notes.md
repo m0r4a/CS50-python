@@ -37,7 +37,7 @@ if x == y:
 #### Flowchart of the code
 
 <p align="center">
-    <img src="resources/Flowchart_if.svg" alt="Flowchart image"/>
+    <img src="resources/flowchart_if.svg" alt="Flowchart image"/>
 </p>
 
 
@@ -60,7 +60,7 @@ elif x == y:
 #### Flowchart of the code
 
 <p align="center">
-    <img src="resources/Flowchart_elif.svg" alt="Flowchart image"/>
+    <img src="resources/flowchart_elif.svg" alt="Flowchart image"/>
 </p>
 
 
@@ -83,7 +83,7 @@ else:
 #### Flowchart of the code 
 
 <p align="center">
-    <img src="resources/Flowchart_else.svg" alt="Flowchart image"/>
+    <img src="resources/flowchart_else.svg" alt="Flowchart image"/>
 </p>
  
 
@@ -104,7 +104,7 @@ else:
 #### Flowchart of the code 
 
 <p align="center">
-    <img src="resources/Flowchart_or.svg" alt="Flowchart image"/>
+    <img src="resources/flowchart_or.svg" alt="Flowchart image"/>
 </p>
 
 
@@ -125,7 +125,7 @@ else:
 #### Flowchart of the code 
 
 <p align="center">
-    <img src="resources/Flowchart_not_equal.svg" alt="Flowchart image"/>
+    <img src="resources/flowchart_not_equal.svg" alt="Flowchart image"/>
 </p>
 
 
@@ -144,7 +144,7 @@ else:
 #### Flowchart of the code
 
 <p align="center">
-    <img src="resources/Flowchart_equal.svg" alt="Flowchart image"/>
+    <img src="resources/flowchart_equal.svg" alt="Flowchart image"/>
 </p>
 
 
