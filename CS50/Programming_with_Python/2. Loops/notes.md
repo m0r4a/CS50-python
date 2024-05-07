@@ -196,6 +196,7 @@ for student in students:
 
 ## List of Dictionaries
 
+```python
 students = [
     {"name": "Hermione", "house": "Gryffindor", "patronus": "Otter"},
     {"name": "Harry", "house": "Gryffindor", "patronus": "Stag"},
@@ -205,3 +206,93 @@ students = [
 
 for student in students:
     print(student["name"], student["house"], student["patronus"], sep=", ")
+```
+
+
+## Nested Loops
+
+- Is a way to have a loop inside another loop
+
+### Example of code v1
+
+```python
+def main():
+    print_square(3)
+
+
+def print_square(size):
+
+    # For each row in square
+    for _ in range(size):
+
+        # For each brick in row
+        for _ in range(size):
+
+            # Print brick
+            print("#", end="")
+
+        print()
+
+
+main()
+```
+
+### Example of code v2
+
+```python
+def main():
+    print_square(3)
+
+
+def print_square(size):
+    for i in range(size):
+        for j in range(size):
+            print("#", end="")
+        print()
+
+
+main()
+```
+
+
+### Example of code v3
+
+```python
+def main():
+    print_square(3)
+
+
+def print_square(size):
+    for _ in range(size):
+        print("#" * size)
+
+
+main()
+```
+
+### Example of code v4
+
+```python
+def main():
+    print_square(3)
+
+
+def print_square(size):
+    for _ in range(size):
+        print_row(size)
+
+
+def print_row(width):
+    print("#" * width)
+
+
+main()
+```
+
+#### Expected output for all examples
+
+```
+###
+###
+###
+```
