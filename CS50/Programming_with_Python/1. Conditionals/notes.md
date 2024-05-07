@@ -59,7 +59,9 @@ elif x == y:
 
 #### Flowchart of the code
 
-![Flowchart image](resources/Flowchart_elif.png)
+<p align="center">
+    <img src="resources/Flowchart_elif.svg" alt="Flowchart image"/>
+</p>
 
 
 ## else
@@ -80,7 +82,9 @@ else:
 
 #### Flowchart of the code 
 
-![Flowchart image](resources/Flowchart_else.png)
+<p align="center">
+    <img src="resources/Flowchart_else.svg" alt="Flowchart image"/>
+</p>
  
 
 ## or 
