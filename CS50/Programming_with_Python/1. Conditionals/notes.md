@@ -36,7 +36,9 @@ if x == y:
 
 #### Flowchart of the code
 
-![Flowchart image](resources/Flowchart_if.png)
+<p align="center">
+    <img src="resources/Flowchart_if.png" alt="Flowchart image"/>
+</p>
 
 
 ## elif
