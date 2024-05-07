@@ -37,7 +37,7 @@ if x == y:
 #### Flowchart of the code
 
 <p align="center">
-    <img src="resources/Flowchart_if.png" alt="Flowchart image"/>
+    <img src="resources/Flowchart_if.svg" alt="Flowchart image"/>
 </p>
 
 
