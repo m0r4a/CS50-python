@@ -14,4 +14,7 @@ print("meow")
 
 ### Flowchart of the code
 
-![Flowchart image](Flowchart_cat_1.png)
+<p align="center">
+  <img src="resources/Flowchart_if.svg" alt="Flowchart of the code">
+</p>
+

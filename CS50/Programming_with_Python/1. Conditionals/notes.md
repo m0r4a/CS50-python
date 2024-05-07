@@ -103,7 +103,9 @@ else:
 
 #### Flowchart of the code 
 
-![Flowchart image](resources/Flowchart_or.png)
+<p align="center">
+    <img src="resources/Flowchart_or.svg" alt="Flowchart image"/>
+</p>
 
 
 ## Not Equal
@@ -122,7 +124,10 @@ else:
 
 #### Flowchart of the code 
 
-![Flowchart image](resources/Flowchart_not_equal.png)
+<p align="center">
+    <img src="resources/Flowchart_not_equal.svg" alt="Flowchart image"/>
+</p>
+
 
 ### Example of a code using equal 
 
@@ -138,7 +143,9 @@ else:
 
 #### Flowchart of the code
 
-![Flowchart image](resources/Flowchart_equal.png)
+<p align="center">
+    <img src="resources/Flowchart_equal.svg" alt="Flowchart image"/>
+</p>
 
 
 ## Identation, Colons 
