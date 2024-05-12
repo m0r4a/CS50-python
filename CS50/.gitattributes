@@ -1,3 +1,2 @@
 # Line to make notes.md behavior like a readme
-# echo "notes.md" >> README.md
-**/notes.md linguist-documentation
+echo "notes.md" >> README.md
