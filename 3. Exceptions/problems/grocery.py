@@ -14,7 +14,7 @@ def main():
                 value = inventory[item]
                 print(f"{value['amount']} {value['name']}")
 
-            exit()
+            break
 
 
 main()

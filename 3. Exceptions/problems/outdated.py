@@ -56,11 +56,13 @@ def check_RegularDateSplit(regularDateSplit: list[str], months: list[str]):
     try:
         months.index(regularDateSplit[0])
 
-        if "," in regularDateSplit[1] and int(regularDateSplit[1].replace(",", "")) <= 31:
-            return True
+        var = bool("," in regularDateSplit[1]
+                   and int(regularDateSplit[2]) <= 31)
 
     except ValueError:
-        return False
+        var = False
+
+    return var
 
 
 def format_RegularDateSplit(regularDateSplit: list[str], months: list[str]):

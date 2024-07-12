@@ -20,7 +20,7 @@ def main():
         except KeyError:
             pass
         except EOFError:
-            exit()
+            break
 
 
 main()
