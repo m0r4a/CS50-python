@@ -28,27 +28,28 @@ def main():
         if len(slashSplit) > 2:
             if check_slashSplit(slashSplit):
                 format_slashSplit(slashSplit)
+                break
 
         elif len(regularDateSplit) > 2:
             if check_RegularDateSplit(regularDateSplit, months):
                 format_RegularDateSplit(regularDateSplit, months)
+                break
         else:
             pass
 
 
 def check_slashSplit(slashSplit):
     try:
-        if int(slashSplit[0]) <= 12 and int(slashSplit[1]) <= 31:
-            return True
-        else:
-            return False
+        var = bool(int(slashSplit[0]) <= 12 and int(slashSplit[1]) <= 31)
+
     except ValueError:
-        return False
+        var = False
+
+    return var
 
 
 def format_slashSplit(slashSplit):
     print(f"{slashSplit[2]}-{int(slashSplit[0]):02}-{int(slashSplit[1]):02}")
-    exit()
 
 
 def check_RegularDateSplit(regularDateSplit: list[str], months: list[str]):
@@ -66,7 +67,6 @@ def format_RegularDateSplit(regularDateSplit: list[str], months: list[str]):
     month_number = (months.index(regularDateSplit[0]) + 1)
     day_number = int(regularDateSplit[1].replace(",", ""))
     print(f"{regularDateSplit[2]}-{month_number:02}-{day_number:02}")
-    exit()
 
 
 main()
