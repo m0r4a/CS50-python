@@ -8,10 +8,9 @@ def main():
 
 
 def is_valid(plate):
-    if plate_checker(plate):
-        return True
-    else:
-        return False
+    var = bool(plate_checker(plate))
+
+    return var
 
 
 def plate_checker(plate):
