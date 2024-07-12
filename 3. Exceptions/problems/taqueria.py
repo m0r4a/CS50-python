@@ -1,6 +1,6 @@
 def main():
     total = 0.00
-    dict = {
+    menu = {
         "Baja Taco": 4.25,
         "Burrito": 7.50,
         "Bowl": 8.50,
@@ -15,7 +15,7 @@ def main():
     while True:
         try:
             item = input("Item: ").title()
-            total += dict[item]
+            total += menu[item]
             print(f"${total:.2f}")
         except KeyError:
             pass

@@ -24,7 +24,7 @@ def main():
 
 def check_slash_split(slash_split):
     try:
-        month, day, year = map(int, slash_split)
+        month, day, _ = map(int, slash_split)
         if 1 <= month <= 12 and 1 <= day <= 31:
             return True
     except ValueError:

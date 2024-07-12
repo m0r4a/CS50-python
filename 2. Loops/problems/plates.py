@@ -8,9 +8,10 @@ def main():
 
 
 def is_valid(plate):
-    var = bool(plate_checker(plate))
-
-    return var
+    if plate_checker(plate):
+        return True
+    else:
+        return False
 
 
 def plate_checker(plate):
@@ -37,7 +38,9 @@ def right_numbers(plate):
         if numbers_started and letter.isalpha():
             return False
 
-    return False if numbers.startswith("0") else True
+        var = bool(numbers.startswith("0"))
+
+    return not var
 
 
 def no_punctuation(plate):
