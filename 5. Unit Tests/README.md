@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
 ## assert
 
-_testing [this code](#calculator.py-code)_
+_testing [this code](#calculatorpy-code)_
 
 ```python
 def main():
@@ -67,7 +67,7 @@ How to handle an AssertionError
 
 ### First "bad" try
 
-_testing [this code](#calculator.py-code)_
+_testing [this code](#calculatorpy-code)_
 
 ```python
 def main():
@@ -91,7 +91,7 @@ if __name__ == "__main__":
 
 ### Second "bad" try with more examples
 
-_testing [this code](#calculator.py-code)_
+_testing [this code](#calculatorpy-code)_
 
 ```python
 def main():
@@ -135,7 +135,7 @@ $ pip install pytest
 
 ### Same test with pytest and all the tests in one function
 
-_testing [this code](#calculator.py-code)_
+_testing [this code](#calculatorpy-code)_
 
 ```python
 from calculator import square
@@ -156,7 +156,7 @@ $ pytest test_calculator.py
 
 ### Categories of tests
 
-_testing [this code](#calculator.py-code)_
+_testing [this code](#calculatorpy-code)_
 
 ```python
 from calculator import square
@@ -177,7 +177,7 @@ def test_zero():
 
 ### Testing for exceptions
 
-_testing [this code](#calculator.py-code)_
+_testing [this code](#calculatorpy-code)_
 
 ```python
 import pytest
@@ -223,7 +223,7 @@ if __name__ == "__main__":
 
 ### test_hello.py code
 
-_testing [this code](#hello.py-code)_
+_testing [this code](#hellopy-code)_
 
 ```python
 from hello import hello
@@ -259,7 +259,7 @@ if __name__ == "__main__":
 
 ### test_hello.py code
 
-_testing [this code](#New_testable_version_of_hello.py)_
+_testing [this code](#New_testable_version_of_hellopy)_
 
 ```python
 from hello import hello
