@@ -259,7 +259,7 @@ if __name__ == "__main__":
 
 ### test_hello.py code
 
-_testing [this code](#new_testable_version_of_hellopy)_
+_testing [this code](#new-testable-version-of-hellopy)_
 
 ```python
 from hello import hello
