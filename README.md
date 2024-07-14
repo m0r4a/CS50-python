@@ -11,3 +11,5 @@ This is a small README placeholder so the repository doesn't look empty.
 ## [Week 3 Notes](https://github.com/m0r4a/CS50-python/blob/main/3.%20Exceptions/README.md)
 
 ## [Week 4 Notes](https://github.com/m0r4a/CS50-python/blob/main/4.%20Libraries/README.md)
+
+## [Week 5 Notes](https://github.com/m0r4a/CS50-python/blob/main/5.%20Unit%20Tests/README.md)
