@@ -27,7 +27,7 @@ def get_level():
         except ValueError:
             continue
 
-        if level > 0 and level < 4:
+        if 1 < level < 4:
             break
 
     return level
