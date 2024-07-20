@@ -1,12 +1,8 @@
 # CS50 Python
 
 <div align="center">
-  <a href="https://app.deepsource.com/gh/m0r4a/CS50-python/" target="_blank">
-    <img alt="DeepSource" title="DeepSource" src="https://app.deepsource.com/gh/m0r4a/CS50-python.svg/?label=active+issues&show_trend=true&token=8XBkjzkF5Q2ick2dnj9Wio9F"/>
-  </a>
-  <a href="https://app.deepsource.com/gh/m0r4a/CS50-python/" target="_blank">
-    <img alt="DeepSource" title="DeepSource" src="https://app.deepsource.com/gh/m0r4a/CS50-python.svg/?label=resolved+issues&show_trend=true&token=8XBkjzkF5Q2ick2dnj9Wio9F"/>
-  </a>
+  <img alt="DeepSource" title="DeepSource" src="https://app.deepsource.com/gh/m0r4a/CS50-python.svg/?label=active+issues&show_trend=true&token=8XBkjzkF5Q2ick2dnj9Wio9F"/>
+  <img alt="DeepSource" title="DeepSource" src="https://app.deepsource.com/gh/m0r4a/CS50-python.svg/?label=resolved+issues&show_trend=true&token=8XBkjzkF5Q2ick2dnj9Wio9F"/>
 </div>
 
 This is a small README placeholder so the repository doesn't look empty.
