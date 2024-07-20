@@ -1,11 +1,15 @@
 # CS50 Python
 
+This is a small README placeholder so the repository doesn't look empty.
+
+# DeepSource status
+
 <div align="center">
-  <img alt="DeepSource" title="DeepSource" src="https://app.deepsource.com/gh/m0r4a/CS50-python.svg/?label=active+issues&show_trend=true&token=8XBkjzkF5Q2ick2dnj9Wio9F"/>
   <img alt="DeepSource" title="DeepSource" src="https://app.deepsource.com/gh/m0r4a/CS50-python.svg/?label=resolved+issues&show_trend=true&token=8XBkjzkF5Q2ick2dnj9Wio9F"/>
+  <img alt="DeepSource" title="DeepSource" src="https://app.deepsource.com/gh/m0r4a/CS50-python.svg/?label=active+issues&show_trend=true&token=8XBkjzkF5Q2ick2dnj9Wio9F"/>
 </div>
 
-This is a small README placeholder so the repository doesn't look empty.
+# Weeks
 
 ## [Week 0 Notes](https://github.com/m0r4a/CS50-python/blob/main/0.%20Functions%2C%20Variables/README.md)
 
