@@ -291,6 +291,7 @@ home = input("Where's your home? ")
 
 with open("students.csv", "a") as file:
     writer = csv.DictWriter(file, fieldnames=["name", "home"])
+    writer.writeheader() # This didn't appear in the video but is necessary to write the header
     writer.writerow({"name": name, "home": home})
 ```
 
