@@ -27,6 +27,9 @@ def check_python_file(file_name: str):
 
 def get_lines(file_name: str):
     lines = []
+
+    check_file_name(file_name)
+
     try:
         with open(file_name) as file:
             for line in file:
@@ -39,6 +42,11 @@ def get_lines(file_name: str):
         sys.exit(f"Error: An unexpected error occurred: {e}")
 
     return lines
+
+
+def check_file_name(file_name: str):
+    if file_name.startswith("../"):
+        sys.exit("Error: File not in current directory")
 
 
 def line_is_valid(line: str):
