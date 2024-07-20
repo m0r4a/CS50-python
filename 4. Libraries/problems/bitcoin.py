@@ -1,5 +1,5 @@
 import sys
-from requests import get
+from requests import get, RequestException
 
 
 def main():
@@ -25,7 +25,7 @@ def get_bitcoin_value():
     try:
         response = get("https://api.coindesk.com/v1/bpi/currentprice.json")
 
-    except requests.RequestException:
+    except RequestException:
         sys.exit("Unexpected exception occured with the API response")
 
     json_response = response.json()
