@@ -1,11 +1,10 @@
 # Week 2: Loops
 
-
-## Loops 
+## Loops
 
 - The hability of doing something multiple times  
 
-## cat.py 
+## cat.py
 
 ### Example of code
 
@@ -20,7 +19,6 @@ print("meow")
 <p align="center">
     <img src="resources/flowchart_cat.svg" alt="Flowchart image"/>
 </p>
-
 
 ## while
 
@@ -41,7 +39,6 @@ while i != 0:
     <img src="resources/flowchart_while_substraction.svg" alt="Flowchart image"/>
 </p>
 
-
 ### While using addition
 
 ```python
@@ -51,13 +48,12 @@ while i < 3:
     i = i + 1
 ```
 
-#### Flowchart of the code 
+#### Flowchart of the code
 
 <p align="center">
     <img src="resources/flowchart_while_addition.svg" alt="Flowchart image"/>
 
-
-## for 
+## for
 
 - Is a way to repeat a block of code a number of times
 
@@ -89,7 +85,6 @@ for _ in range(3):
 ```python
 print("meow\n" * 3, end="")
 ```
-
 
 ## Validating input
 
@@ -130,7 +125,6 @@ def meow(n):
 main()
 ```
 
-
 ## Iteration with Lists
 
 - Is a way to iterate over a list
@@ -144,7 +138,6 @@ for student in students:
     print(student)
 ```
 
-
 ## len
 
 - Is a way to get the length of a list
@@ -157,7 +150,6 @@ students = ["Hermione", "Harry", "Ron"]
 for i in range(len(students)):
     print(i + 1, students[i])
 ```
-
 
 ## Dictionaries
 
@@ -193,7 +185,6 @@ for student in students:
     print(student, students[student], sep=", ")
 ```
 
-
 ## List of Dictionaries
 
 ```python
@@ -207,7 +198,6 @@ students = [
 for student in students:
     print(student["name"], student["house"], student["patronus"], sep=", ")
 ```
-
 
 ## Nested Loops
 
@@ -253,7 +243,6 @@ def print_square(size):
 
 main()
 ```
-
 
 ### Example of code v3
 
