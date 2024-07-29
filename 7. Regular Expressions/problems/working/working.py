@@ -28,7 +28,7 @@ def change_format(hour_list: list) -> str:
     minutes = hour_list[1]
     meridiem = hour_list[2]
 
-    if minutes == None:
+    if minutes is None:
         minutes = 00
     if meridiem == "AM" and hour == 12:
         hour = 0
