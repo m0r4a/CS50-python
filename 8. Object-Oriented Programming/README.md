@@ -542,6 +542,7 @@ professor = Professor("Severus", "Defense Against the Dark Arts")
 
 ### Exceptions hierarchy
 
+```text
 BaseException
   +-- KeyboardInterrupt
   +-- Exception
@@ -558,6 +559,7 @@ BaseException
     +-- SyntaxError
     |  +-- IndentationError
     +-- ValueError
+```
 
 ## Operator Overloading: `vault.py`
 
