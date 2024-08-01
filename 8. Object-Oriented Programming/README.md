@@ -565,7 +565,7 @@ BaseException
 
 Operator overloading is a specific case of polymorphism, where different operators have different implementations depending on their arguments.
 
-In other words, a + doesn't always mean addition, it can mean concatenation if the operands are strings for example.
+In other words, a `+` doesn't always mean addition, it can mean concatenation if the operands are strings for example.
 
 [Documentation](https://docs.python.org/3/reference/datamodel.html#special-method-names)
 
