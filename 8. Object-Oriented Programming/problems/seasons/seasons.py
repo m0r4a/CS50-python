@@ -1,7 +1,7 @@
 from datetime import date
-from sys import exit
 from re import search
 from inflect import engine
+import sys
 
 
 def main():
@@ -19,7 +19,7 @@ def date_parser(string: str) -> date:
         full_date = [int(match.group(i)) for i in range(1, 4)]
         return date(full_date[0], full_date[1], full_date[2])
     else:
-        exit("Invalid date")
+        sys.exit("Invalid date")
 
 
 if __name__ == "__main__":
