@@ -260,7 +260,7 @@ print(meows, end="")
 
 A docstring is a string that is used to document a function, method, or class. It is used to describe what the function does, what parameters it takes, and what it returns.
 
-There's a standarized way on how to document your functions, methods, and classes in Python, the PEP (Python Enhancement Proposal) is the [PEP 257](peps.python.org/pep-0257).
+There's a standarized way on how to document your functions, methods, and classes in Python, the PEP (Python Enhancement Proposal) is the [PEP 257](https://www.python.org/dev/peps/pep-0257/)
 
 ### Example of code with a docstring
 
@@ -549,7 +549,7 @@ for i, student in enumerate(students, start=1):
 
 A generator is a function that returns an iterator. It generates values using the `yield` keyword.
 
-[Generator documentation](https://docs.python.org/3/glossary.html#term-generator)
+[What's a generator?](https://docs.python.org/3/glossary.html#term-generator)
 
 ### Example of code that not works due the lack of using a generator
 
