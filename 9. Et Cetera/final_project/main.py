@@ -1,4 +1,5 @@
 import os
+import sys.exit
 import argparse
 import re
 import random
@@ -174,11 +175,11 @@ def open_readme(file_name):
     except FileNotFoundError:
         console.print(f"[{STYLES['error']}]Error: File '{
                       readme_path}' not found.[/{STYLES['error']}]")
-        exit(1)
+        sys.exit(1)
     except Exception as e:
         console.print(f"[{STYLES['error']}]Error reading file: {
                       str(e)}[/{STYLES['error']}]")
-        exit(1)
+        sys.exit2(1)
 
 
 def clear_terminal():
@@ -193,5 +194,5 @@ def process_arguments():
 
 
 if __name__ == "__main__":
-    file_name = process_arguments()
-    main(file_name)
+    file_name_argument = process_arguments()
+    main(file_name_argument)
