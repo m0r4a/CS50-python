@@ -16,10 +16,11 @@ console = Console()
 
 # Define custom styles
 STYLES = {
-    "header": Style(color="bright_magenta", bold=True),
-    "table": Style(color="light_pink1"),
-    "panel": Style(color="light_pink3", bold=True),
-    "menu": Style(color="magenta", bold=True),
+    "header": Style(color="royal_blue1", bold=True),
+    "table_header": Style(color="royal_blue1"),
+    "table": Style(color="light_steel_blue"),
+    "menu": Style(color="light_steel_blue"),
+    "border": Style(color="sky_blue2"),
     "error": Style(color="red", bold=True),
     "success": Style(color="green", bold=True),
 }
@@ -61,12 +62,13 @@ def display_menu(projects_dict):
                 console.print(f"[{STYLES['menu']}]{opt}. {
                     desc}[/{STYLES['menu']}]")
 
-            choice = Prompt.ask("Choose an option", choices=["1", "2", "3"])
+            choice = Prompt.ask("Choose an option", choices=[
+                                "1", "2", "3", "all", "random", "exit", ""])
 
-            if choice == "1":
+            if choice.lower() in ("1", "all"):
                 clear_terminal()
                 show_all_projects(projects_dict)
-            elif choice == "2":
+            elif choice.lower() in ("2", "random"):
                 clear_terminal()
                 show_random_project(projects_dict)
             else:
@@ -83,8 +85,8 @@ def show_all_projects(projects_dict):
     clear_terminal()
     console.print(Panel("Projects List", style=STYLES["header"]))
 
-    table = Table(show_header=True, header_style=STYLES["header"])
-    table.add_column("#", style="dim", width=6)
+    table = Table(show_header=True, header_style=STYLES["table_header"])
+    table.add_column("#", style="dim", width=3, justify="center")
     table.add_column("Name", min_width=20, style=STYLES["table"])
 
     project_names = list(projects_dict.keys())
@@ -100,11 +102,11 @@ def show_all_projects(projects_dict):
         try:
             selected_project = session.prompt(
                 HTML(
-                    "<ansimagenta>Search for a project (or 'back' to return to menu): </ansimagenta>"),
+                    "<ansiblue>Search for a project (or 'back' to return to menu): </ansiblue>"),
                 completer=completer
             )
 
-            if selected_project.lower() == 'back':
+            if selected_project.lower() in ('back', '', 'exit'):
                 clear_terminal()
                 return
 
@@ -135,16 +137,16 @@ def show_random_project(projects_dict):
 
 def print_project_info(project):
     info = Text()
-    info.append("Name: ", style="bold magenta")
+    info.append("Name: ", style=STYLES["menu"])
     info.append(f"{project.name}\n")
-    info.append("Description: ", style="bold magenta")
+    info.append("Description: ", style=STYLES["menu"])
     info.append(f"{project.description}\n")
-    info.append("Difficulty: ", style="bold magenta")
+    info.append("Difficulty: ", style=STYLES["menu"])
     info.append(f"{project.difficulty}\n")
-    info.append("Status: ", style="bold magenta")
+    info.append("Status: ", style=STYLES["menu"])
     info.append(project.status)
 
-    console.print(Panel(info, expand=False, border_style="magenta"))
+    console.print(Panel(info, expand=False, border_style=STYLES["border"]))
     input("\nPress Enter to continue...")
     clear_terminal()
 
