@@ -24,3 +24,8 @@ This is a small README placeholder so the repository doesn't look empty.
 ## [Week 5 Notes](https://github.com/m0r4a/CS50-python/blob/main/5.%20Unit%20Tests/README.md)
 
 ## [Week 6 Notes](https://github.com/m0r4a/CS50-python/blob/main/6.%20File%20I-O/README.md)
+
+
+<p align="center">
+    <img src="CS50p.png" alt="Certificate"/>
+</p>
