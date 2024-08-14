@@ -13,14 +13,12 @@ def test_open_readme():
         assert result == mock_content.splitlines(True)
 
     # Not existing file
-    with patch("builtins.open", side_effect=FileNotFoundError):
-        with pytest.raises(FileNotFoundError):
-            open_readme('README.md')
+    with patch("builtins.open", side_effect=FileNotFoundError), pytest.raises(FileNotFoundError):
+        open_readme('README.md')
 
     # Read error
-    with patch("builtins.open", side_effect=IOError("Simulated read error")):
-        with pytest.raises(IOError, match="Simulated read error"):
-            open_readme('README.md')
+    with patch("builtins.open", side_effect=IOError("Simulated read error")), pytest.raises(IOError, match="Simulated read error"):
+        open_readme('README.md')
 
 
 def test_parse_project():

@@ -46,6 +46,8 @@ class Project:
         return (f"Project(name={self.name!r}, description={self.description!r}, "
                 f"difficulty={self.difficulty!r}, status={self.status!r})")
 
+    __hash__ = None
+
 
 STYLES = {
     "header": Style(color="royal_blue1", bold=True),
