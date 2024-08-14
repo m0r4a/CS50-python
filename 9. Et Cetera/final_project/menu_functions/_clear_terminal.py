@@ -1,12 +1,12 @@
-from os import system, name
+import subprocess
+import platform
 
 
 def clear_terminal():
     """
-    Clear the terminal screen
+    Clear the terminal screen in a more secure manner.
     """
-
-    if name == 'nt':
-        system('cls')
+    if platform.system() == 'Windows':
+        subprocess.run('cls', shell=True, check=True)
     else:
-        system('clear')
+        subprocess.run('clear', shell=True, check=True)
