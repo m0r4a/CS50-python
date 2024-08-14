@@ -27,5 +27,5 @@ This is a small README placeholder so the repository doesn't look empty.
 
 
 <p align="center">
-    <img src="CS50p.png" alt="Certificate"/>
+    <img src="CS50P.png" alt="Certificate"/>
 </p>
