@@ -63,7 +63,7 @@ STYLES = {
 def main(file_name=None):
     projects = open_readme(file_name)
     projects_dict = parse_projects(projects)
-    display_menu(projects_dict, STYLES)
+    display_menu(projects_dict)
 
 
 def open_readme(file_name):
@@ -136,7 +136,7 @@ def parse_project(project_info):
     return None
 
 
-def display_menu(projects_dict, STYLES):
+def display_menu(projects_dict):
     """
     Display the main menu of the program
 
